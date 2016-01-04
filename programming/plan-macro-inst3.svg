@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg viewBox="0 0 640 1027" xmlns="http://www.w3.org/2000/svg" xmlns:inkspace="http://www.inkscape.org/namespaces/inkscape" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs id="defs_block">
+    <filter height="1.504" id="filter_blur" inkspace:collect="always" width="1.1575" x="-0.07875" y="-0.252">
+      <feGaussianBlur id="feGaussianBlur3780" inkspace:collect="always" stdDeviation="4.2" />
+    </filter>
+  </defs>
+  <title>blockdiag</title>
+  <desc>seqdiag
+{
+	span_height = 0;
+	activation = none;
+	default_fontsize = 12;
+	group { T [label="Teacher"]; color = "#ffcccc"; }
+	group { S [label="Student"]; color = "#ccffcc"; }
+	group { PC[label="PC"];      color = "#ccccff"; }
+
+	=== 展開: 乱数集計マクロの実装(20分) ===
+	T =&gt; S [label="前回の乱数集計プログラムをマクロで実装させる", return="マクロの動作を確認する"]
+	{
+		S -&gt; PC [label="rand関数とマクロを組み合わせて実装する", return="マクロで乱数を集計する", leftnote="rand関数とマクロの動作の兼ね合いを説明する"]
+	}
+
+	=== 展開: モンテカルロ法(25分) ===
+	T -&gt; S [label="前回までの知識を用い、本時は乱数によるシミュレーションを行うことを伝える"]
+	T =&gt; S [label="モンテカルロ法による円周率の推定方法を説明する", return="モンテカルロ法の理解を確認する"]
+	{
+		S -&gt; S [label="円周率推定のフローチャートを作成する"]
+	}
+
+	=== 展開: マクロによるシミュレーション(15分) ===
+	T =&gt; S [label="円周率を推定するVBAを作成させる"]
+	{
+		S -&gt; PC [label="フローチャートに基づいて乱数の判定部を作成する"]
+	}
+
+	=== 展開: インタフェースの作成(20分) ===
+	T =&gt; S [label="ボタンの作成方法を説明する"]
+	{
+		S =&gt; PC [label="デザインモードでボタンを追加する", return="ボタンでマクロを実行する"]
+	}
+
+	=== 展開: フォームの作成(15分) ===
+	T =&gt; S [label="ダイアログの作成方法を説明する", return="UIを作成する"]
+	{
+		S =&gt; PC [label="フォームに部品を配置する", return="フォームの入力内容に基づきマクロを実行する"]
+	}
+
+	=== 展開: ドキュメントの作成(20分) ===
+	// TODO: 作成中
+
+	=== まとめ(5分) ===
+	T -&gt; S [label="次回はインタフェースのデザインを学ぶことを伝える"]
+}
+</desc>
+  <polygon fill="rgb(0,0,0)" points="42,150 299,150 307,158 307,167 42,167 42,150" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" />
+  <rect fill="rgb(255,204,204)" height="1003" style="filter:url(#filter_blur)" width="144" x="56" y="0" />
+  <rect fill="rgb(204,255,204)" height="1003" style="filter:url(#filter_blur)" width="144" x="248" y="0" />
+  <rect fill="rgb(204,204,255)" height="1003" style="filter:url(#filter_blur)" width="144" x="440" y="0" />
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="67" y="6" />
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="259" y="6" />
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="451" y="6" />
+  <path d="M 128 40 L 128 1035" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="8 4" />
+  <path d="M 320 40 L 320 1035" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="8 4" />
+  <path d="M 512 40 L 512 1035" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="8 4" />
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="64" y="0" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="47" x="128.5" y="26">Teacher</text>
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="256" y="0" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="44" x="320.0" y="26">Student</text>
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="448" y="0" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="16" x="512.0" y="26">PC</text>
+  <path d="M 136 111 L 312 111" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="304,107 312,111 304,115" stroke="rgb(0,0,0)" />
+  <path d="M 328 152 L 504 152" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="496,148 504,152 496,156" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(255,182,193)" points="39,144 296,144 304,152 304,161 39,161 39,144" stroke="rgb(0,0,0)" />
+  <path d="M 296 144 L 296 152" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 296 152 L 304 152" fill="none" stroke="rgb(0,0,0)" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="241" x="167.5" y="159">rand関数とマクロの動作の兼ね合いを説明する</text>
+  <path d="M 136 178 L 312 178" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="4" />
+  <polygon fill="rgb(0,0,0)" points="144,174 136,178 144,182" stroke="rgb(0,0,0)" />
+  <path d="M 136 273 L 312 273" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="304,269 312,273 304,277" stroke="rgb(0,0,0)" />
+  <path d="M 136 315 L 312 315" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="304,311 312,315 304,319" stroke="rgb(0,0,0)" />
+  <path d="M 328 370 L 416 370" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 416 370 L 416 386" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 416 386 L 328 386" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="336,382 328,386 336,390" stroke="rgb(0,0,0)" />
+  <path d="M 136 426 L 312 426" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="4" />
+  <polygon fill="rgb(0,0,0)" points="144,422 136,426 144,430" stroke="rgb(0,0,0)" />
+  <path d="M 136 506 L 312 506" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="304,502 312,506 304,510" stroke="rgb(0,0,0)" />
+  <path d="M 328 547 L 504 547" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="496,543 504,547 496,551" stroke="rgb(0,0,0)" />
+  <path d="M 136 557 L 312 557" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="4" />
+  <polygon fill="rgb(0,0,0)" points="144,553 136,557 144,561" stroke="rgb(0,0,0)" />
+  <path d="M 136 624 L 312 624" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="304,620 312,624 304,628" stroke="rgb(0,0,0)" />
+  <path d="M 328 663 L 504 663" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="496,659 504,663 496,667" stroke="rgb(0,0,0)" />
+  <path d="M 328 690 L 504 690" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="4" />
+  <polygon fill="rgb(0,0,0)" points="336,686 328,690 336,694" stroke="rgb(0,0,0)" />
+  <path d="M 136 700 L 312 700" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="4" />
+  <polygon fill="rgb(0,0,0)" points="144,696 136,700 144,704" stroke="rgb(0,0,0)" />
+  <path d="M 136 779 L 312 779" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="304,775 312,779 304,783" stroke="rgb(0,0,0)" />
+  <path d="M 328 805 L 504 805" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="496,801 504,805 496,809" stroke="rgb(0,0,0)" />
+  <path d="M 328 846 L 504 846" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="4" />
+  <polygon fill="rgb(0,0,0)" points="336,842 328,846 336,850" stroke="rgb(0,0,0)" />
+  <path d="M 136 873 L 312 873" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="4" />
+  <polygon fill="rgb(0,0,0)" points="144,869 136,873 144,877" stroke="rgb(0,0,0)" />
+  <path d="M 136 993 L 312 993" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="304,989 312,993 304,997" stroke="rgb(0,0,0)" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="169" x="224.5" y="94">前回の乱数集計プログラムをマク</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="77" x="178.5" y="109">ロで実装させる</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="169" x="416.5" y="135">rand関数とマクロを組み合わせて</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="45" x="354.5" y="150">実装する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="123" x="250.5" y="176">マクロの動作を確認する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="167" x="223.5" y="243">前回までの知識を用い、本時は乱</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="172" x="226.0" y="257">数によるシミュレーションを行うこと</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="43" x="161.5" y="271">を伝える</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="169" x="224.5" y="298">モンテカルロ法による円周率の推</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="91" x="185.5" y="313">定方法を説明する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="104" x="380.0" y="347">円周率推定のフロー</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="95" x="375.5" y="362">チャートを作成する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="169" x="227.5" y="418">モンテカルロ法の理解を確認する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="170" x="225.0" y="491">円周率を推定するVBAを作成させ</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="10" x="145.0" y="504">る</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="164" x="414.0" y="530">フローチャートに基づいて乱数の</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="91" x="377.5" y="545">判定部を作成する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="146" x="213.0" y="622">ボタンの作成方法を説明する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="170" x="417.0" y="655">デザインモードでボタンを追加する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="129" x="439.5" y="688">ボタンでマクロを実行する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="167" x="223.5" y="771">ダイアログの作成方法を説明する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="131" x="397.5" y="803">フォームに部品を配置する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="167" x="420.5" y="829">フォームの入力内容に基づきマク</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="66" x="471.0" y="844">ロを実行する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="67" x="278.5" y="871">UIを作成する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="169" x="224.5" y="977">次回はインタフェースのデザインを</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="86" x="183.0" y="991">学ぶことを伝える</text>
+  <path d="M 40 58 L 226 58" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 40 62 L 226 62" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 414 58 L 600 58" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 414 62 L 600 62" fill="none" stroke="rgb(0,0,0)" />
+  <rect fill="rgb(208,208,208)" height="20" stroke="rgb(0,0,0)" width="188" x="226" y="50" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="168" x="320.0" y="66">展開: 乱数集計マクロの実装(20分)</text>
+  <path d="M 40 206 L 243 206" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 40 210 L 243 210" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 396 206 L 600 206" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 396 210 L 600 210" fill="none" stroke="rgb(0,0,0)" />
+  <rect fill="rgb(208,208,208)" height="20" stroke="rgb(0,0,0)" width="153" x="243" y="198" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="133" x="319.5" y="214">展開: モンテカルロ法(25分)</text>
+  <path d="M 40 454 L 213 454" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 40 458 L 213 458" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 426 454 L 600 454" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 426 458 L 600 458" fill="none" stroke="rgb(0,0,0)" />
+  <rect fill="rgb(208,208,208)" height="20" stroke="rgb(0,0,0)" width="213" x="213" y="446" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="193" x="319.5" y="462">展開: マクロによるシミュレーション(15分)</text>
+  <path d="M 40 585 L 230 585" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 40 589 L 230 589" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 409 585 L 600 585" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 409 589 L 600 589" fill="none" stroke="rgb(0,0,0)" />
+  <rect fill="rgb(208,208,208)" height="20" stroke="rgb(0,0,0)" width="179" x="230" y="577" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="159" x="319.5" y="593">展開: インタフェースの作成(20分)</text>
+  <path d="M 40 728 L 244 728" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 40 732 L 244 732" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 396 728 L 600 728" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 396 732 L 600 732" fill="none" stroke="rgb(0,0,0)" />
+  <rect fill="rgb(208,208,208)" height="20" stroke="rgb(0,0,0)" width="152" x="244" y="720" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="132" x="320.0" y="736">展開: フォームの作成(15分)</text>
+  <path d="M 40 901 L 236 901" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 40 905 L 236 905" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 403 901 L 600 901" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 403 905 L 600 905" fill="none" stroke="rgb(0,0,0)" />
+  <rect fill="rgb(208,208,208)" height="20" stroke="rgb(0,0,0)" width="167" x="236" y="893" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="147" x="319.5" y="909">展開: ドキュメントの作成(20分)</text>
+  <path d="M 40 941 L 282 941" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 40 945 L 282 945" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 357 941 L 600 941" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 357 945 L 600 945" fill="none" stroke="rgb(0,0,0)" />
+  <rect fill="rgb(208,208,208)" height="20" stroke="rgb(0,0,0)" width="75" x="282" y="933" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="55" x="319.5" y="949">まとめ(5分)</text>
+</svg>

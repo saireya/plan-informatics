@@ -1,0 +1,53 @@
+seqdiag
+{
+	span_height = 0;
+	activation = none;
+	default_fontsize = 12;
+	group { T [label="Teacher"]; color = "#ffcccc"; }
+	group { S [label="Student"]; color = "#ccffcc"; }
+	group { PC[label="PC"];      color = "#ccccff"; }
+
+	=== 展開: Excel関数の概要(10分) ===
+	T => S [label="前回の復習をした上で、Excel関数について説明する", return="関数の概要と表記を理解する"]
+	{
+		S -> PC [label="sqrt,mod,sum関数を入力する", leftnote="関数名の由来や「:」による\nセル範囲の指定方法も説明する"]
+		S -> PC [label="if関数を入力する", leftnote="関数をネストできることも説明する"]
+	}
+
+	=== 展開: 乱数の生成(20分) ===
+	T => S [label="乱数の生成方法を説明する", return="乱数の利用方法を理解する"]
+	{
+		S => PC [label="rand関数を入力する", return="連続的な乱数を生成する"]
+		S => PC [label="int関数と組み合わせる", return="離散的な乱数を生成する"]
+	}
+
+	=== 展開: 席替えプログラムの実装(20分) ===
+	T -> S [label="席替えプログラムの完成像を示す"]
+	T -> S [label="順位の算出方法を説明する"]
+	{
+		S => PC [label="rank関数を入力する", return="与えた乱数の順位を返す"]
+	}
+	T -> S [label="順位を座席表の形で表示させる"]
+	{
+		S -> PC [label="席替えプログラムを完成させる"]
+	}
+
+	=== 展開: 条件による数え上げ(20分) ===
+	// TODO: 順位表で重複チェックに使う?
+	T -> S [label="数え上げの方法を説明する", note="条件式の記述方法が\n特殊なことに注意する"]
+	{
+		S -> PC [label="countif関数を入力する"]
+	}
+
+	=== 展開: 条件による数え上げ(25分) ===
+	T -> S [label="多数のサイコロの目を集計させる"]
+	{
+		S -> PC [label="サイコロの目の集計表を作成する"]
+	}
+	T -> S [label="範囲指定を通して「$」でのセルの固定を復習する", note="生徒が「$」の使い方を理解しているか確認する"]
+	T -> S [label="グラフの作成方法と設定方法を説明する"]
+
+	=== まとめ(5分) ===
+	T -> S [label="本時で扱った表計算ソフトの基礎事項を復習する"]
+	T -> S [label="次回はVBAでより高度な自動化を行うことを伝える"]
+}

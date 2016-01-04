@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg viewBox="0 0 640 1073" xmlns="http://www.w3.org/2000/svg" xmlns:inkspace="http://www.inkscape.org/namespaces/inkscape" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs id="defs_block">
+    <filter height="1.504" id="filter_blur" inkspace:collect="always" width="1.1575" x="-0.07875" y="-0.252">
+      <feGaussianBlur id="feGaussianBlur3780" inkspace:collect="always" stdDeviation="4.2" />
+    </filter>
+  </defs>
+  <title>blockdiag</title>
+  <desc>seqdiag
+{
+	span_height = 0;
+	activation = none;
+	default_fontsize = 12;
+	group { T [label="Teacher"]; color = "#ffcccc"; }
+	group { S [label="Student"]; color = "#ccffcc"; }
+	group { PC[label="PC"];      color = "#ccccff"; }
+
+	=== 展開: Excel関数の概要(10分) ===
+	T =&gt; S [label="前回の復習をした上で、Excel関数について説明する", return="関数の概要と表記を理解する"]
+	{
+		S -&gt; PC [label="sqrt,mod,sum関数を入力する", leftnote="関数名の由来や「:」による\nセル範囲の指定方法も説明する"]
+		S -&gt; PC [label="if関数を入力する", leftnote="関数をネストできることも説明する"]
+	}
+
+	=== 展開: 乱数の生成(20分) ===
+	T =&gt; S [label="乱数の生成方法を説明する", return="乱数の利用方法を理解する"]
+	{
+		S =&gt; PC [label="rand関数を入力する", return="連続的な乱数を生成する"]
+		S =&gt; PC [label="int関数と組み合わせる", return="離散的な乱数を生成する"]
+	}
+
+	=== 展開: 席替えプログラムの実装(20分) ===
+	T -&gt; S [label="席替えプログラムの完成像を示す"]
+	T -&gt; S [label="順位の算出方法を説明する"]
+	{
+		S =&gt; PC [label="rank関数を入力する", return="与えた乱数の順位を返す"]
+	}
+	T -&gt; S [label="順位を座席表の形で表示させる"]
+	{
+		S -&gt; PC [label="席替えプログラムを完成させる"]
+	}
+
+	=== 展開: 条件による数え上げ(20分) ===
+	// TODO: 順位表で重複チェックに使う?
+	T -&gt; S [label="数え上げの方法を説明する", note="条件式の記述方法が\n特殊なことに注意する"]
+	{
+		S -&gt; PC [label="countif関数を入力する"]
+	}
+
+	=== 展開: 条件による数え上げ(25分) ===
+	T -&gt; S [label="多数のサイコロの目を集計させる"]
+	{
+		S -&gt; PC [label="サイコロの目の集計表を作成する"]
+	}
+	T -&gt; S [label="範囲指定を通して「$」でのセルの固定を復習する", note="生徒が「$」の使い方を理解しているか確認する"]
+	T -&gt; S [label="グラフの作成方法と設定方法を説明する"]
+
+	=== まとめ(5分) ===
+	T -&gt; S [label="本時で扱った表計算ソフトの基礎事項を復習する"]
+	T -&gt; S [label="次回はVBAでより高度な自動化を行うことを伝える"]
+}
+</desc>
+  <polygon fill="rgb(0,0,0)" points="121,127 299,127 307,135 307,157 121,157 121,127" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" />
+  <polygon fill="rgb(0,0,0)" points="113,166 299,166 307,174 307,183 113,183 113,166" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" />
+  <polygon fill="rgb(0,0,0)" points="339,662 465,662 473,670 473,693 339,693 339,662" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" />
+  <polygon fill="rgb(0,0,0)" points="339,875 591,875 599,883 599,891 339,891 339,875" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" />
+  <rect fill="rgb(255,204,204)" height="1049" style="filter:url(#filter_blur)" width="144" x="56" y="0" />
+  <rect fill="rgb(204,255,204)" height="1049" style="filter:url(#filter_blur)" width="144" x="248" y="0" />
+  <rect fill="rgb(204,204,255)" height="1049" style="filter:url(#filter_blur)" width="144" x="440" y="0" />
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="67" y="6" />
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="259" y="6" />
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="451" y="6" />
+  <path d="M 128 40 L 128 1081" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="8 4" />
+  <path d="M 320 40 L 320 1081" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="8 4" />
+  <path d="M 512 40 L 512 1081" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="8 4" />
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="64" y="0" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="47" x="128.5" y="26">Teacher</text>
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="256" y="0" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="44" x="320.0" y="26">Student</text>
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="448" y="0" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="16" x="512.0" y="26">PC</text>
+  <path d="M 136 111 L 312 111" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="304,107 312,111 304,115" stroke="rgb(0,0,0)" />
+  <path d="M 328 136 L 504 136" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="496,132 504,136 496,140" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(255,182,193)" points="118,121 296,121 304,129 304,151 118,151 118,121" stroke="rgb(0,0,0)" />
+  <path d="M 296 121 L 296 129" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 296 129 L 304 129" fill="none" stroke="rgb(0,0,0)" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="132" x="192.0" y="135">関数名の由来や「:」による</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="162" x="207.0" y="149">セル範囲の指定方法も説明する</text>
+  <path d="M 328 168 L 504 168" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="496,164 504,168 496,172" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(255,182,193)" points="110,160 296,160 304,168 304,177 110,177 110,160" stroke="rgb(0,0,0)" />
+  <path d="M 296 160 L 296 168" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 296 168 L 304 168" fill="none" stroke="rgb(0,0,0)" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="170" x="203.0" y="175">関数をネストできることも説明する</text>
+  <path d="M 136 195 L 312 195" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="4" />
+  <polygon fill="rgb(0,0,0)" points="144,191 136,195 144,199" stroke="rgb(0,0,0)" />
+  <path d="M 136 262 L 312 262" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="304,258 312,262 304,266" stroke="rgb(0,0,0)" />
+  <path d="M 328 289 L 504 289" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="496,285 504,289 496,293" stroke="rgb(0,0,0)" />
+  <path d="M 328 315 L 504 315" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="4" />
+  <polygon fill="rgb(0,0,0)" points="336,311 328,315 336,319" stroke="rgb(0,0,0)" />
+  <path d="M 328 341 L 504 341" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="496,337 504,341 496,345" stroke="rgb(0,0,0)" />
+  <path d="M 328 368 L 504 368" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="4" />
+  <polygon fill="rgb(0,0,0)" points="336,364 328,368 336,372" stroke="rgb(0,0,0)" />
+  <path d="M 136 395 L 312 395" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="4" />
+  <polygon fill="rgb(0,0,0)" points="144,391 136,395 144,399" stroke="rgb(0,0,0)" />
+  <path d="M 136 475 L 312 475" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="304,471 312,475 304,479" stroke="rgb(0,0,0)" />
+  <path d="M 136 501 L 312 501" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="304,497 312,501 304,505" stroke="rgb(0,0,0)" />
+  <path d="M 328 528 L 504 528" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="496,524 504,528 496,532" stroke="rgb(0,0,0)" />
+  <path d="M 328 554 L 504 554" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="4" />
+  <polygon fill="rgb(0,0,0)" points="336,550 328,554 336,558" stroke="rgb(0,0,0)" />
+  <path d="M 136 580 L 312 580" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="304,576 312,580 304,584" stroke="rgb(0,0,0)" />
+  <path d="M 328 606 L 504 606" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="496,602 504,606 496,610" stroke="rgb(0,0,0)" />
+  <path d="M 136 671 L 312 671" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="304,667 312,671 304,675" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(255,182,193)" points="336,656 462,656 470,664 470,687 336,687 336,656" stroke="rgb(0,0,0)" />
+  <path d="M 462 656 L 462 664" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 462 664 L 470 664" fill="none" stroke="rgb(0,0,0)" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="108" x="398.0" y="670">条件式の記述方法が</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="110" x="399.0" y="685">特殊なことに注意する</text>
+  <path d="M 328 704 L 504 704" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="496,700 504,704 496,708" stroke="rgb(0,0,0)" />
+  <path d="M 136 796 L 312 796" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="304,792 312,796 304,800" stroke="rgb(0,0,0)" />
+  <path d="M 328 836 L 504 836" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="496,832 504,836 496,840" stroke="rgb(0,0,0)" />
+  <path d="M 136 877 L 312 877" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="304,873 312,877 304,881" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(255,182,193)" points="336,869 588,869 596,877 596,885 336,885 336,869" stroke="rgb(0,0,0)" />
+  <path d="M 588 869 L 588 877" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 588 877 L 596 877" fill="none" stroke="rgb(0,0,0)" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="236" x="462.0" y="883">生徒が「$」の使い方を理解しているか確認する</text>
+  <path d="M 136 918 L 312 918" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="304,914 312,918 304,922" stroke="rgb(0,0,0)" />
+  <path d="M 136 999 L 312 999" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="304,995 312,999 304,1003" stroke="rgb(0,0,0)" />
+  <path d="M 136 1039 L 312 1039" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="304,1035 312,1039 304,1043" stroke="rgb(0,0,0)" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="161" x="220.5" y="94">前回の復習をした上で、Excel関</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="100" x="190.0" y="109">数について説明する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="153" x="408.5" y="134">sqrt,mod,sum関数を入力する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="86" x="375.0" y="166">if関数を入力する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="149" x="237.5" y="193">関数の概要と表記を理解する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="139" x="209.5" y="260">乱数の生成方法を説明する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="104" x="384.0" y="287">rand関数を入力する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="126" x="441.0" y="313">連続的な乱数を生成する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="116" x="390.0" y="339">int関数と組み合わせる</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="126" x="441.0" y="366">離散的な乱数を生成する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="139" x="242.5" y="393">乱数の利用方法を理解する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="170" x="225.0" y="466">席替えプログラムの完成像を示す</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="139" x="209.5" y="499">順位の算出方法を説明する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="103" x="383.5" y="526">rank関数を入力する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="127" x="440.5" y="552">与えた乱数の順位を返す</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="160" x="220.0" y="578">順位を座席表の形で表示させる</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="154" x="409.0" y="604">席替えプログラムを完成させる</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="137" x="208.5" y="669">数え上げの方法を説明する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="118" x="391.0" y="702">countif関数を入力する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="167" x="223.5" y="788">多数のサイコロの目を集計させる</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="169" x="416.5" y="828">サイコロの目の集計表を作成する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="169" x="224.5" y="861">範囲指定を通して「$」でのセルの</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="79" x="179.5" y="875">固定を復習する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="171" x="225.5" y="901">グラフの作成方法と設定方法を説</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="33" x="156.5" y="916">明する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="169" x="224.5" y="983">本時で扱った表計算ソフトの基礎</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="79" x="179.5" y="997">事項を復習する</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="170" x="225.0" y="1023">次回はVBAでより高度な自動化を</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" text-anchor="middle" textLength="83" x="181.5" y="1037">行うことを伝える</text>
+  <path d="M 40 58 L 238 58" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 40 62 L 238 62" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 402 58 L 600 58" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 402 62 L 600 62" fill="none" stroke="rgb(0,0,0)" />
+  <rect fill="rgb(208,208,208)" height="20" stroke="rgb(0,0,0)" width="164" x="238" y="50" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="144" x="320.0" y="66">展開: Excel関数の概要(10分)</text>
+  <path d="M 40 222 L 251 222" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 40 226 L 251 226" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 388 222 L 600 222" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 388 226 L 600 226" fill="none" stroke="rgb(0,0,0)" />
+  <rect fill="rgb(208,208,208)" height="19" stroke="rgb(0,0,0)" width="137" x="251" y="215" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="117" x="319.5" y="230">展開: 乱数の生成(20分)</text>
+  <path d="M 40 423 L 222 423" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 40 427 L 222 427" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 418 423 L 600 423" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 418 427 L 600 427" fill="none" stroke="rgb(0,0,0)" />
+  <rect fill="rgb(208,208,208)" height="20" stroke="rgb(0,0,0)" width="196" x="222" y="415" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="176" x="320.0" y="431">展開: 席替えプログラムの実装(20分)</text>
+  <path d="M 40 634 L 233 634" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 40 638 L 233 638" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 407 634 L 600 634" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 407 638 L 600 638" fill="none" stroke="rgb(0,0,0)" />
+  <rect fill="rgb(208,208,208)" height="20" stroke="rgb(0,0,0)" width="174" x="233" y="626" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="154" x="320.0" y="642">展開: 条件による数え上げ(20分)</text>
+  <path d="M 40 745 L 233 745" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 40 749 L 233 749" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 407 745 L 600 745" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 407 749 L 600 749" fill="none" stroke="rgb(0,0,0)" />
+  <rect fill="rgb(208,208,208)" height="20" stroke="rgb(0,0,0)" width="174" x="233" y="737" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="154" x="320.0" y="753">展開: 条件による数え上げ(25分)</text>
+  <path d="M 40 946 L 282 946" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 40 950 L 282 950" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 357 946 L 600 946" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 357 950 L 600 950" fill="none" stroke="rgb(0,0,0)" />
+  <rect fill="rgb(208,208,208)" height="20" stroke="rgb(0,0,0)" width="75" x="282" y="938" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="55" x="319.5" y="954">まとめ(5分)</text>
+</svg>

@@ -1,0 +1,37 @@
+seqdiag
+{
+	span_height = 0;
+	activation = none;
+	default_fontsize = 12;
+	group { T [label="Teacher"]; color = "#ffcccc"; }
+	group { S [label="Student"]; color = "#ccffcc"; }
+	group { PC[label="PC"];      color = "#ccccff"; }
+
+	S -> PC [label="PCを起動する"]
+	S --> T [label="PCの起動を確認する"]
+
+	=== 導入(5分) ===
+	T -> S [label="本時の内容を伝え、1時限目で目標とする九九の表を示す", note="単なるExcelの実習でなく、表計算ソフトに\n一般化した説明を行うよう留意する"]
+
+	=== 展開: 表計算ソフトの基礎(10分) ===
+	T => S [label="Excelの起動方法を説明する", return="Excelの起動を確認する"]
+	{
+		S -> PC [label="Excelを起動する"]
+	}
+	T => S [label="表計算ソフトの画面構成を説明する", return="セルを行名と列名で「A3セル」などと表すことを理解する"]
+	T -> S [label="セルへの入力方法を説明する", return="入力できていることを確認する"]
+	{
+		S => PC [label="セルに文字や四則計算を入力する", return="数式の計算結果を確認する", leftnote="数式の前に必ず「=」を入力することを注意する"]
+	}
+	T -> S [label="セルの参照方法を説明する"]
+	{
+		S => PC [label="数式にセル番地を入力する", return="参照先の値により計算結果が変わることを確認する", leftnote="セル番地は小文字で良いことを説明する"]
+	}
+
+	=== 展開: セルのコピー(15分) ===
+	T => S [label="セルのコピー方法を説明する", return="セルのコピー方法を理解する", note="マウスの移動先やクリック操作を丁寧に説明する"]
+	{
+		S => PC [label="「1」をコピーする", return="同じ数字がコピーされることを確認する"]
+		S => PC [label="「1,2」をコピーする", return="連番がコピーされることを確認する"]
+	}
+}
