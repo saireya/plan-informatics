@@ -13,4 +13,6 @@
 	* [...](.md)
 	* [...](.md)
 * [プログラミング](programming/README.md)
-	* [マクロによる自動化](programming/macro.md)
+	* [プログラミングの概要](programming/prog/README.md)
+	* [分析のための工夫,関数と統計](programming/spreadsheet/README.md)
+	* [マクロによる自動化](programming/macro/README.md)
