@@ -1,9 +1,9 @@
 # Summary
 
-<!--* [情報](part1/README.md)
+* [情報](part1/README.md)
 	* [...](.md)
 	* [...](.md)
-* [コミュニケーション](part2/README.md)
+<!--* [コミュニケーション](part2/README.md)
 	* [...](.md)
 	* [...](.md)
 * [セキュリティ](part2/README.md)
