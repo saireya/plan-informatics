@@ -1,0 +1,35 @@
+seqdiag
+{
+	span_height = 0;
+	activation = none;
+	default_fontsize = 12;
+	group { T [label="Teacher"]; color = "#ffcccc"; }
+	group { S [label="Student"]; color = "#ccffcc"; }
+	group { PC[label="PC"];      color = "#ccccff"; }
+
+	S -> PC [label="PCを起動する", leftnote="PCの準備状況に配慮する"]
+
+	=== 導入(20分) ===
+	T -> S [label="自己紹介を行う(内進はメール文例を示しながら)"]
+
+	=== 展開: (10分) ===
+	T -> S [label="課題メールを講評する"]
+	{
+		S => PC [label="課題メールを開く", return="課題メールを読み返し、文面の改善点を考える"]
+	}
+	T -> S [label="To,CC,BCCを相手や場面に応じて使い分けることを説明する"]
+	{
+		S -> PC [label="Wordを起動してノートテイクする", leftnote="タイピング速度に配慮しつつ、\nWordの機能を適宜説明する"]
+	}
+	T -> S [label="情報科の年間計画を伝える"]
+	T -> S [label="本時の目標を伝える"]
+
+	=== 展開: (10分) ===
+	T => S [label="現代が「情報化社会」と呼ばれていることを確認し、どんなときに「情報化社会」だと感じるか尋ねる", return="生徒が挙げた場面を整理する"]
+	{
+		S -> PC[label="自分が「情報化社会」に生きていると感じる場面を思い出して列挙する"]
+	}
+
+	=== 展開: (10分) ===
+	T => S [label="ディジタルとアナログの違いを説明する", return="古いものがアナログ、新しいものがディジタルというのが誤った認識だと理解する", note="ノートのとり方、記号の入力法も説明する"]
+}

@@ -1,0 +1,26 @@
+seqdiag
+{
+	span_height = 0;
+	activation = none;
+	default_fontsize = 12;
+	group { T [label="Teacher"]; color = "#ffcccc"; }
+	group { S [label="Student"]; color = "#ccffcc"; }
+	group { G [label="Group"];   color = "#ccccff"; }
+
+	=== 展開: (30分) ===
+	T => S [label="「情報」とは何かを考える前に、「情報」の例を列挙させる", return="各班が挙げた「情報」の例を示す", note="brainstormingのルールを説明する"]
+	{
+		S => G [label="「○○は情報である」といえるものを班毎に列挙する", return="「情報」に対する認識が相異なると認識する"]
+	}
+
+	=== 展開: (15分) ===
+	T => S [label="日本語の「情報」の語源を説明し、英語のinformationに遡る必要があることを認識させる", return="informationがin+formを語源とし、情報は生命の内部で形成されるものだと理解する"]
+	{
+		S => G [label="brainstormingで出た「情報の例」が情報かを定義に即して判定する", return="情報と主観の関係を考察する"]
+	}
+	T -> S [label="各班の判定に対して、情報の定義に即しているかを補足する"]
+
+	=== まとめ: (5分) ===
+	T => S [label="岡本太郎『今日の芸術』を引き、情報の主観性を説明する", return="情報は主観的なもので、何を認識するかは人それぞれ異なることを理解する"]
+	T -> S [label="次回は、「情報が主観的なものであるにもかかわらず社会が成立するのはなぜか」という問題を扱うことを伝える"]
+}
