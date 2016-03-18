@@ -28,7 +28,7 @@
 
 ## 指導計画
 ### 1時限目
-~~~mermaid
+'''mermaid
 sequenceDiagram
 	participant T
 	participant S
@@ -60,10 +60,10 @@ sequenceDiagram
 	T->>S: ディジタルとアナログの違いを説明する
 	Note right of S: ノートのとり方、記号の入力法も説明する
 	S->>T: 古いものがアナログ、新しいものがディジタルというのが誤った認識だと理解する
-~~~
+'''
 
 ### 2時限目
-~~~mermaid
+'''mermaid
 sequenceDiagram
 	Note left of T: 展開(30分)
 	T->>S: 「情報」とは何かを考える前に、「情報」の例を列挙させる
@@ -83,4 +83,4 @@ sequenceDiagram
 	T->>S: 岡本太郎『今日の芸術』を引き、情報の主観性を説明する
 	S->>T: 情報は主観的なもので、何を認識するかは人それぞれ異なることを理解する
 	T->>S: 次回は、「情報が主観的なものであるにもかかわらず社会が成立するのはなぜか」という問題を扱うことを伝える
-~~~
+'''
