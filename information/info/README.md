@@ -67,7 +67,7 @@ Note left of T: 展開(10分)
 sequenceDiagram
 	participant T
 	participant S
-	participant PC
+	participant G
 
 Note left of T: 展開(30分)
 	T->>S: 「情報」とは何かを考える前に、「情報」の例を列挙させる
