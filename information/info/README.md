@@ -28,18 +28,18 @@
 
 ## 指導計画
 ### 1時限目
-'''mermaid
+```mermaid
 sequenceDiagram
 	participant T
 	participant S
 	participant PC
 
-	Note left of T: 導入(20分)
+Note left of T: 導入(20分)
 	S->>PC: PCを起動する
 	Note left of S: PCの準備状況に配慮する
 	T->>S: 自己紹介を行う\n(内進はメール文例を示しながら)
 
-	Note left of T: 展開(10分)
+Note left of T: 展開(10分)
 	T->>S: 課題メールを講評する
 	S->>PC: 課題メールを開く
 	PC->>S: 課題メールを読み返し、文面の改善点を考える
@@ -51,36 +51,40 @@ sequenceDiagram
 	T->>S: 情報科の年間計画を伝える
 	T->>S: 本時の目標を伝える
 
-	Note left of T: 展開(10分)
+Note left of T: 展開(10分)
 	T->>S: 現代が「情報化社会」と呼ばれていることを確認し、どんなときに「情報化社会」だと感じるか尋ねる
 	S->>PC: 自分が「情報化社会」に生きていると感じる場面を思い出して列挙する
 	S->>T: 生徒が挙げた場面を整理する
 
-	Note left of T: 展開(10分)
+Note left of T: 展開(10分)
 	T->>S: ディジタルとアナログの違いを説明する
 	Note right of S: ノートのとり方、記号の入力法も説明する
 	S->>T: 古いものがアナログ、新しいものがディジタルというのが誤った認識だと理解する
-'''
+```
 
 ### 2時限目
-'''mermaid
+```mermaid
 sequenceDiagram
-	Note left of T: 展開(30分)
+	participant T
+	participant S
+	participant PC
+
+Note left of T: 展開(30分)
 	T->>S: 「情報」とは何かを考える前に、「情報」の例を列挙させる
 	Note right of S: brainstormingのルールを説明する
 	S->>G: 「○○は情報である」といえるものを班毎に列挙する
 	G->>S: 「情報」に対する認識が相異なると認識する
 	S->>T: 各班が挙げた「情報」の例を示す
 
-	Note left of T: 展開(15分)
+Note left of T: 展開(15分)
 	T->>S: 日本語の「情報」の語源を説明し、英語のinformationに遡る必要があることを認識させる
 	S->>G: brainstormingで出た「情報の例」が情報かを定義に即して判定する
 	G->>S: 情報と主観の関係を考察する
 	S->>T: informationがin+formを語源とし、情報は生命の内部で形成されるものだと理解する
 	T->>S: 各班の判定に対して、情報の定義に即しているかを補足する
 
-	Note left of T: まとめ(5分)
+Note left of T: まとめ(5分)
 	T->>S: 岡本太郎『今日の芸術』を引き、情報の主観性を説明する
 	S->>T: 情報は主観的なもので、何を認識するかは人それぞれ異なることを理解する
 	T->>S: 次回は、「情報が主観的なものであるにもかかわらず社会が成立するのはなぜか」という問題を扱うことを伝える
-'''
+```
