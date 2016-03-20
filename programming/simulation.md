@@ -21,7 +21,7 @@ sequenceDiagram
 	participant S
 	participant PC
 
-Note left of T: 展開: モンテカルロ法(10分)
+Note left of T: 導入(10分)
 	T->>S: 前回までの知識を用い、本時は乱数によるシミュレーションを行うことを伝える
 	T->>S: モンテカルロ法の概要を伝える
 	S-->>T: 確率シミュレーションの利点を理解する
@@ -34,6 +34,14 @@ Note left of T: 展開: 円周率の推定(25分)
 Note left of T: 展開: 円周率アルゴリズム(15分)
 	T->>S: 円周率推定のフローチャートを説明する
 	S-->>T: 円周率推定のアルゴリズムを理解する
+```
+
+### 2時限目
+```mermaid
+sequenceDiagram
+	participant T
+	participant S
+	participant PC
 
 Note left of T: 展開: マクロによるシミュレーション(15分)
 	T->>S: 円周率を推定するVBAを作成させる
@@ -52,13 +60,4 @@ Note left of T: 展開: フォームの作成(15分)
 
 Note left of T: まとめ(5分)
 	T->>S: 次回はインタフェースのデザインを学ぶことを伝える
-```
-
-### 2時限目
-```mermaid
-sequenceDiagram
-	participant T
-	participant S
-	participant PC
-
 ```
