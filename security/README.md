@@ -5,3 +5,8 @@
 ## 単元の指導計画
 0. [個人による安全対策・個人情報](sec.md)(2時間)
 0. [安全のための情報技術](cipher.md)(2時間)
+
+## 授業資料
+- 授業スライド(Slideshare): [マルウェア](http://www.slideshare.net/saireya/ss-51971192), [暗号]([http://www.slideshare.net/saireya/ss-51971308
+)
+- [ソース・出典一覧(Bitbucket)](https://bitbucket.org/saireya/slide-security)

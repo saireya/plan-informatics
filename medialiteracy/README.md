@@ -11,3 +11,8 @@
 0. スライド作成(2時間)
 0. リハーサル(2時間)
 0. プレゼンテーションの実施(4時間)
+
+## 授業資料
+- 授業資料(Slideshare): [メディア・リテラシー](http://www.slideshare.net/saireya/ss-51972373), [メディア・リテラシー実習](http://www.slideshare.net/saireya/ss-54429691)
+- ソース・出典一覧(Bitbucket): [メディア・リテラシー](https://bitbucket.org/saireya/slide-medialiteracy), [メディア・リテラシー実習](https://bitbucket.org/saireya/slide-medialiteracy-practical)
+- ワークシート: [メディア・リテラシー](https://www.scribd.com/doc/276902168), レポート課題, レポートアウトライン, レビューシート, レポートチェックリスト, プレゼンアウトライン

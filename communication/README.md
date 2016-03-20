@@ -5,3 +5,8 @@
 ## 単元の指導計画
 0. [コミュニケーション](comm.md)(2時間)
 0. [メディアと機能的分化](media.md)(2時間)
+
+## 授業資料
+- [授業スライド(Slideshare)](http://www.slideshare.net/saireya/ss-51970896)
+- [ソース・出典一覧(Bitbucket)](https://bitbucket.org/saireya/slide-communication)
+- 論文: [コミュニケーション・情報・メディアの統合モデルに基づく教育実践(CIS2016)](http://saireya.hateblo.jp/entry/work/communication-cis2016)

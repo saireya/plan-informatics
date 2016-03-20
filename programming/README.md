@@ -8,3 +8,8 @@
 0. [マクロによる自動化](macro.md)(2時間)
 0. [シミュレーション](simulation.md)(2時間)
 0. Scratchでのプログラミング(4時間)
+
+## 授業資料
+- [授業スライド(Slideshare)](http://www.slideshare.net/saireya/ss-59481717)
+- [ソース・出典一覧(Bitbucket)](https://bitbucket.org/saireya/slide-programming)
+- ワークシート: プログラム仕様書
