@@ -22,6 +22,7 @@
 	* [リハーサル](.md)
 	* [プレゼンテーションの実施](.md)
 * [デザイン](design/README.md)
+	* [デザイン](design/design.md)
 * [プログラミング](programming/README.md)
 	* [プログラミングの概要](programming/prog.md)
 	* [分析のための工夫,関数と統計](programming/spreadsheet.md)
