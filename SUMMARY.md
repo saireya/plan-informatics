@@ -26,4 +26,4 @@
 	* [プログラミングの概要](programming/prog.md)
 	* [分析のための工夫,関数と統計](programming/spreadsheet.md)
 	* [マクロによる自動化](programming/macro.md)
-	* [シミュレーション](programming/montecarlo.md)
+	* [シミュレーション](programming/simulation.md)
