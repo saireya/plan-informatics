@@ -37,7 +37,7 @@ section メディア・リテラシー
 ## 下半期
 - 7月-11月上旬: [メディア・リテラシー](medialiteracy/README.md) (レポート、プレゼンテーション)
 - 11月中旬: [デザイン](design/README.md)
-- 12月-2月: [プログラミング](programming/README.md)
+- 12月-2月: [プログラミング](programming/README.md) (Squeak、Excel、VBA、Scratch)
 
 ```mermaid
 gantt
