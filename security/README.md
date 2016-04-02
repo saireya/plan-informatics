@@ -7,6 +7,6 @@
 0. [安全のための情報技術](cipher.md)(2時間)
 
 ## 授業資料
-- 授業スライド(Slideshare): [マルウェア](http://www.slideshare.net/saireya/ss-51971192), [暗号]([http://www.slideshare.net/saireya/ss-51971308
+- [授業スライド](http://saireya.github.io/slide-security/slide-sec.tex.xml), [old/マルウェア](http://www.slideshare.net/saireya/ss-51971192), [old/暗号]([http://www.slideshare.net/saireya/ss-51971308
 )
-- [ソース・出典一覧(Bitbucket)](https://bitbucket.org/saireya/slide-security)
+- [ソース・出典一覧(GitHub)](https://github.com/saireya/slide-security)

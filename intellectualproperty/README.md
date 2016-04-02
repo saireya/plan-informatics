@@ -7,8 +7,7 @@
 0. [著作権](copyright.md)(2時間)
 
 ## 授業資料
-- 授業スライド(Slideshare): [知的財産](http://www.slideshare.net/saireya/ss-51971813), 
-[著作権](http://www.slideshare.net/saireya/ss-51971964)
-- [ソース・出典一覧(Bitbucket)](https://bitbucket.org/saireya/slide-intellectualproperty)
+- [授業スライド](http://saireya.github.io/slide-ip/slide-ip.tex.xml), [old/知的財産](http://www.slideshare.net/saireya/ss-51971813), [old/著作権](http://www.slideshare.net/saireya/ss-51971964)
+- [ソース・出典一覧(GitHub)](https://github.com/saireya/slide-ip)
 - ワークシート: [発想課題](https://www.scribd.com/doc/276902170), [著作権](https://www.scribd.com/doc/276902171)
 - 配布資料: [著作権法条文](https://www.scribd.com/doc/276902177), [著作権ワークシート解説](https://www.scribd.com/doc/276902173)

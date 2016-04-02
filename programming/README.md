@@ -10,6 +10,6 @@
 0. Scratchでのプログラミング(4時間)
 
 ## 授業資料
-- [授業スライド(Slideshare)](http://www.slideshare.net/saireya/ss-59481717)
-- [ソース・出典一覧(Bitbucket)](https://bitbucket.org/saireya/slide-programming)
+- [授業スライド](http://saireya.github.io/slide-program/slide-prog.tex.xml), [old](http://www.slideshare.net/saireya/ss-59481717)
+- [ソース・出典一覧(GitHub)](https://github.com/saireya/slide-program)
 - ワークシート: プログラム仕様書

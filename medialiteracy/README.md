@@ -13,6 +13,6 @@
 0. プレゼンテーションの実施(4時間)
 
 ## 授業資料
-- 授業資料(Slideshare): [メディア・リテラシー](http://www.slideshare.net/saireya/ss-51972373), [メディア・リテラシー実習](http://www.slideshare.net/saireya/ss-54429691)
-- ソース・出典一覧(Bitbucket): [メディア・リテラシー](https://bitbucket.org/saireya/slide-medialiteracy), [メディア・リテラシー実習](https://bitbucket.org/saireya/slide-medialiteracy-practical)
+- 授業スライド: [メディア・リテラシー](http://saireya.github.io/slide-medialiteracy/slide-ml.tex.xml), [メディア・リテラシー実習](http://saireya.github.io/slide-medialiteracy-practice/slide-ml-practical.tex.xml), [old/メディア・リテラシー](http://www.slideshare.net/saireya/ss-51972373), [old/メディア・リテラシー実習](http://www.slideshare.net/saireya/ss-54429691)
+- ソース・出典一覧(GitHub): [メディア・リテラシー](https://github.com/saireya/slide-medialiteracy), [メディア・リテラシー実習](https://github.com/saireya/slide-medialiteracy-practice)
 - ワークシート: [メディア・リテラシー](https://www.scribd.com/doc/276902168), レポート課題, レポートアウトライン, レビューシート, レポートチェックリスト, プレゼンアウトライン
