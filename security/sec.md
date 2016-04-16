@@ -35,9 +35,40 @@ sequenceDiagram
 	participant S
 	participant PC
 
-Note left of T: 導入(5分)
-	S->>PC: タブレットの準備作業を行う
+Note left of T: 導入(10分)
+	S->>PC: PCを起動する
+	PC-->>T: PCの起動を確認する
+	Note left of S: PCの準備状況に配慮する
+
+Note left of T: 展開(20分)
+	T->>S: 課題(自己紹介メール)を確認させる
+	S->>PC: 送信したメールを開く
+	S-->>T: メールが開かれたことを確認する
+	T->>S: 自己紹介を行う\n(メール文例を示しながら)
+	S-->>T: メールを読み返し、文面の改善すべき点を理解する
+
+	T->>S: 情報科の概要・年間計画を伝える
+
+Note left of T: 展開(20分)
 	T->>S: 本時の目標を伝える
+	S-->>T: セキュリティを学ぶ重要さを理解する
+
+	T->>S: ノートテイクについて説明する
+	S->>PC: Wordを起動する
+	PC-->>T: Wordの起動を確認する
+
+	T->>S: To,CC,BCCの違いを説明する
+	S-->>T: To,CC,BCCを相手や場面に応じて使い分けることを説明する
+
+	Note left of PC: タイピング速度に配慮しつつ、\nWordの機能を適宜説明する
+```
+
+### 2時限目
+```mermaid
+sequenceDiagram
+	participant T
+	participant S
+	participant G
 
 Note left of T: 展開(30分)
 	T->>S: コンピュータウイルスなどの例を挙げつつ、マルウェアを説明する
@@ -58,7 +89,7 @@ Note left of T: 展開(10分)
 	Note right of S: 学校用アカウントのパスワードを変更すると、学習系サーバへのログインが煩雑になることを説明しておく
 ```
 
-### 2時限目
+### 3時限目
 ```mermaid
 sequenceDiagram
 	participant T
@@ -82,7 +113,7 @@ Note left of T: 総括(10分)
 	T->>S: 次時はヒューマンエラーで流出する対象となる、個人情報とプライバシーを扱うと予告する
 ```
 
-### 3時限目
+### 4時限目
 ```mermaid
 sequenceDiagram
 	participant T
