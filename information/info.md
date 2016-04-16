@@ -37,7 +37,7 @@ sequenceDiagram
 Note left of T: 導入(20分)
 	S->>PC: PCを起動する
 	Note left of S: PCの準備状況に配慮する
-	T->>S: 自己紹介を行う\n(内進はメール文例を示しながら)
+	T->>S: 自己紹介を行う\n(メール文例を示しながら)
 
 Note left of T: 展開(10分)
 	T->>S: 課題メールを講評する
