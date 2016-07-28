@@ -1,5 +1,5 @@
 # 年間計画
-教科書: 実教出版『高校 社会と情報』
+教科書: [実教出版『高校 社会と情報』](https://amazon.jp/dp/4407202262)
 
 <!-- workaround for bug of cutemarked -->
 <script> mermaid.ganttConfig = { numberSectionStyles:2 }; </script>
