@@ -1,4 +1,4 @@
 {
-	"plugins": ["mermaid-2"],
+	"plugins": ["mermaid-gb3"],
 	"pdf": { "fontFamily": "IPAGothic" }
 }
