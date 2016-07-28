@@ -15,4 +15,4 @@
 ## 授業資料
 - 授業スライド: [メディア・リテラシー](http://saireya.github.io/slide-medialiteracy/slide-ml.tex.xml), [メディア・リテラシー実習](http://saireya.github.io/slide-medialiteracy-practice/slide-ml-practical.tex.xml), [old/メディア・リテラシー](http://www.slideshare.net/saireya/ss-51972373), [old/メディア・リテラシー実習](http://www.slideshare.net/saireya/ss-54429691)
 - ソース・出典一覧(GitHub): [メディア・リテラシー](https://github.com/saireya/slide-medialiteracy), [メディア・リテラシー実習](https://github.com/saireya/slide-medialiteracy-practice)
-- ワークシート: [メディア・リテラシー](https://www.scribd.com/doc/276902168), レポート課題, レポートアウトライン, レビューシート, レポートチェックリスト, プレゼンアウトライン
+- ワークシート: [メディア・リテラシー](https://www.dropbox.com/s/9r8k8ezyxmb5gfg/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%83%BB%E3%83%AA%E3%83%86%E3%83%A9%E3%82%B7%E3%83%BCWS.docx?dl=0), レポート課題, レポートアウトライン, レビューシート, レポートチェックリスト, プレゼンアウトライン
