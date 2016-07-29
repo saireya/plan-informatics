@@ -1,4 +1,4 @@
 {
-	"plugins": ["japanese-support", "mermaid-gb3"],
+	"plugins": ["mermaid-gb3"],
 	"pdf": { "fontFamily": "IPAGothic" }
 }
