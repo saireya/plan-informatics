@@ -39,7 +39,7 @@ section メディア・リテラシー
 
 ## 下半期
 - 7月-11月上旬: [メディア・リテラシー](medialiteracy/README.md) (レポート、プレゼンテーション)
-- 12月-2月: [プログラミング](programming/README.md) (Squeak、Excel、VBA、Scratch)
+- 12月-2月: [プログラミング](programming/README.md) (Scratch、Excel、VBA、Scratch)
 
 ```mermaid
 gantt
@@ -55,7 +55,7 @@ section プレゼンテーション
 	リハーサル			:p4, after p3, 1w
 	プレゼン実施		:p5, after p4, 2w
 section プログラミング
-	Squeak実習		:c1, after p5, 1w
+	Scratch実習		:c1, after p5, 1w
 	表計算			:c2, after c1, 2w
 	VBA				:c3, 2017-01-01, 2w
 	シミュレーション		:c4, after c3, 1w
